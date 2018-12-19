@@ -1,0 +1,2 @@
+# AutoAjax
+An Ajax Framework
