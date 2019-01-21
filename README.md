@@ -23,7 +23,7 @@ Default: ``` empty ``` \
 Data attribute: ``` data-request ``` \
 Required: true | false
 
-A string containing the URL to which the request is sent. The value could not be initialized when user defined a requestForm element.
+A string containing the URL to which the request is sent. The value would not be required when user defined a requestForm element.
 
 #### requestForm
 Type: ``` String ``` \
