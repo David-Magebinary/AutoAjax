@@ -25,7 +25,7 @@ Required: true | false
 
 A string containing the URL to which the request is sent. The value would not be required when user defined a requestForm element.
 
-#### requestForm
+#### form
 Type: ``` String ``` \
 Default: ``` empty ``` \
 Data attribute: ``` data-request-form ``` \
@@ -33,7 +33,7 @@ Required: false | true
 
 The id of the form element which would be submitted by Ajax. The attribute would be required value when the user wants AutoAjax to be worked on a button with ``` type="submit" ```.
 
-#### requestMethod
+#### method
 Type: ``` String ``` \
 Default: ``` GET ``` \
 Data attribute: ``` data-request-method ```
