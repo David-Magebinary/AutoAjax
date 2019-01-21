@@ -49,7 +49,7 @@ The element's selector which would be modified while the request is sending thro
 
 #### loadingAnimation
 Type: ``` String ``` or ``` Function() ```\
-Default: ``` empty ``` \
+Default: ``` bootstrap ``` \
 Data attribute: ``` data-request-loading-animation ``` \
 Values: ``` bootstrap, swal ```
 
