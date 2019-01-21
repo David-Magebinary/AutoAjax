@@ -40,11 +40,11 @@ Data attribute: ``` data-request-method ```
 
 The HTTP method to use for the request (e.g. ``` POST ```, ``` GET ```)
 
-#### requestLoading
-Type: ``` String ``` or ``` Function() ```\
-Default: ``` Function() ```
+#### loading
+Type: ``` String ``` \
+Default: ``` empty ```
 
-The element would be modified while the request is sending through.
+The element's selector which would be modified while the request is sending through.
 
 #### requestLoadingAnimation
 Type: ``` String ``` or ``` Function() ```\
