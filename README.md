@@ -20,7 +20,7 @@ Add ```data-request``` attribute to any ```<a>, <buitton>, <button type="submit"
 #### request
 Type: ``` String ``` \
 Default: ``` empty ``` \
-Data attribute: ``` data-request ```
+Data attribute: ``` data-request ``` \
 Required: true | false
 
 A string containing the URL to which the request is sent. The value could not be initialized when user defined a requestForm element.
@@ -28,15 +28,15 @@ A string containing the URL to which the request is sent. The value could not be
 #### requestForm
 Type: ``` String ``` \
 Default: ``` empty ``` \
-Data attribute: ``` data-request-form ```
+Data attribute: ``` data-request-form ``` \
 Required: false | true
 
 The id of the form element which would be submitted by Ajax. The attribute would be required value when the user wants AutoAjax to be worked on a button with ``` type="submit" ```.
 
 #### requestMethod
-Type: ``` String ```\
-Default: ``` GET ```
-Data attribute: ``` data-request-method ```
+Type: ``` String ``` \
+Default: ``` GET ``` \
+Data attribute: ``` data-request-method ``` \
 
 The HTTP method to use for the request (e.g. ``` POST ```, ``` GET ```)
 
