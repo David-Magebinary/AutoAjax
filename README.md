@@ -47,11 +47,13 @@ Data attribute: ``` data-request-loading ```
 
 The element's selector which would be modified while the request is sending through.
 
-#### requestLoadingAnimation
+#### loadingAnimation
 Type: ``` String ``` or ``` Function() ```\
-Default: ``` empty ```
+Default: ``` empty ``` \
+Data attribute: ``` data-request-loading-animation ``` \
+Values: ``` bootstrap, swal ```
 
-The animation name for 
+The animation name for loading effect.
 
 #### onSuccess
 Type: ``` Function() ``` \
