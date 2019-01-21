@@ -8,44 +8,49 @@ We need an Ajax framework to helps us quickly implement an universal solution to
 The following core requirements:
 
 1. Allows to define a messaging or an alert system. (eg. sweetalert)
-
 2. Allows to simple initialize API point to run with all default settings.
-
 3. Various API options && all API point should be avaiable in by using data-attributes in HTML.
 
+### How to use
+
+Add ```data-request``` attribute to any ```<a>, <buitton>, <button type="submit">```, or add ```data-request-form``` to any ``` <button type="submit"> ```
 
 ### API options
 
-#### message
-Type: ``` Object ``` \
-Default: ``` swal ```
-
-The name of the messaging system which allows to display loading or response message
-
 #### request
 Type: ``` String ``` \
-Default: ``` empty ```
+Default: ``` empty ``` \
+Data attribute: ``` data-request ```
+Required: true | false
 
+A string containing the URL to which the request is sent. The value could not be initialized when user defined a requestForm element.
 
-A string containing the URL to which the request is sent.
+#### requestForm
+Type: ``` String ``` \
+Default: ``` empty ``` \
+Data attribute: ``` data-request-form ```
+Required: false | true
+
+The id of the form element which would be submitted by Ajax. The attribute would be required value when the user wants AutoAjax to be worked on a button with ``` type="submit" ```.
 
 #### requestMethod
 Type: ``` String ```\
 Default: ``` GET ```
+Data attribute: ``` data-request-method ```
 
 The HTTP method to use for the request (e.g. ``` POST ```, ``` GET ```)
-
-#### requestUpdate
-Type: ``` String ``` or ``` Function() ```\
-Default: ``` empty ```
-
-The update method or element would be executed or modified after the response has been post back.
 
 #### requestLoading
 Type: ``` String ``` or ``` Function() ```\
 Default: ``` Function() ```
 
-The loading object or string which would be executed or rendered.
+The element would be modified while the request is sending through.
+
+#### requestLoadingAnimation
+Type: ``` String ``` or ``` Function() ```\
+Default: ``` empty ```
+
+The animation name for 
 
 #### onSuccess
 Type: ``` Function() ``` \
@@ -53,6 +58,11 @@ Default: ``` empty ```
 
 The callback would be executed after the response has been post back and considered as a success request.
 
+#### message
+Type: ``` Object ``` \
+Default: ``` swal ```
+
+The name of the messaging system which allows to display loading or response message
 
 #### onFail
 Type: ``` Function() ``` \
