@@ -42,7 +42,8 @@ The HTTP method to use for the request (e.g. ``` POST ```, ``` GET ```)
 
 #### loading
 Type: ``` String ``` \
-Default: ``` empty ```
+Default: ``` empty ``` \
+Data attribute: ``` data-request-loading ```
 
 The element's selector which would be modified while the request is sending through.
 
