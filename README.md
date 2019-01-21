@@ -36,7 +36,7 @@ The id of the form element which would be submitted by Ajax. The attribute would
 #### requestMethod
 Type: ``` String ``` \
 Default: ``` GET ``` \
-Data attribute: ``` data-request-method ``` \
+Data attribute: ``` data-request-method ```
 
 The HTTP method to use for the request (e.g. ``` POST ```, ``` GET ```)
 
